@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230516336423",
+    "project_id": "xhotel-ee3ac",
+    "storage_bucket": "xhotel-ee3ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230516336423:android:e460df2619b6f2117deb02",
+        "android_client_info": {
+          "package_name": "com.example.xhotel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArLDhhFFFS3TMq3WlgxENIUc07dq3o4jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

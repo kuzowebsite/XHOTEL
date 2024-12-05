@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Description field -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Price field -->
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="numberDecimal" />
+
+    <!-- Number of Rooms field -->
+    <EditText
+        android:id="@+id/editTextRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Rooms"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="number" />
+
+    <!-- Number of People field -->
+    <EditText
+        android:id="@+id/editTextPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of People"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="number" />
+
+    <!-- Number of Beds field -->
+    <EditText
+        android:id="@+id/editTextBeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Beds"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="number" />
+
+    <!-- Save button -->
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+</LinearLayout>

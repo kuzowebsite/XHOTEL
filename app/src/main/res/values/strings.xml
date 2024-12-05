@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XHotel</string>
+    <string name="image_desc">This is an image description</string>
+        <string name="room_image">Room Image</string>
+        <string name="phone_number_hint">Дугаараа оруулна уу</string>
+        <string name="number_of_nights_hint">Хоногийн тоог оруулна уу</string>
+        <string name="verification_message">Захиалга баталгаажсан байна</string>
+        <string name="qr_code_description">QR Code for Verification</string>
+        <string name="price_format">Үнэ: %s₮</string>
+        <string name="rooms_format">Өрөөний тоо: %s</string>
+        <string name="people_format">Хүний тоо: %s</string>
+        <string name="beds_format">Орны тоо: %s</string>
+        <string name="order">Захиалах</string>
+        <string name="close">Хаах</string>
+        <string name="confirm_order">Захиалгыг баталгаажуулах</string>
+        <string name="confirm">Баталгаажуулах</string>
+        <string name="cancel">Болих</string>
+        <string name="reservation_confirmed">Захиалга баталгаажсан</string>
+        <string name="ok">OK</string>
+        <string name="invalid_input">Дугаар болон хоногийн тоо дутуу байна</string>
+</resources>

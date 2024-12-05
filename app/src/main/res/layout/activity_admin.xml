@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Хэрэглэгчийн нэрийн EditText -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Хэрэглэгчийн нэр"/>
+
+    <!-- Нууц үгийн EditText -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Нууц үг"
+        android:inputType="textPassword"/>
+
+    <!-- Админ эсэхийг шалгах CheckBox -->
+    <CheckBox
+        android:id="@+id/adminCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Админ эсэх" />
+
+    <!-- Бүртгэх товч -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Бүртгэх" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ХАЙХ"
+        android:inputType="text"
+        android:layout_marginTop="16dp" />
+
+    <!-- Хэрэглэгчдийн жагсаалт -->
+    <ListView
+        android:id="@+id/userListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Админ жагсаалт -->
+    <ListView
+        android:id="@+id/adminListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
